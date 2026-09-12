@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy - Payment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">ShopEasy</div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="cart.html">Cart</a>
+        <a href="profile.html">Profile</a>
+    </nav>
+</header>
+
+<section class="form-section">
+    <div class="form-box payment-box">
+        <h2>Payment</h2>
+
+        <form id="paymentForm">
+
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Address</label>
+            <textarea placeholder="Enter delivery address" required></textarea>
+
+            <label>Payment Method</label>
+            <select required>
+                <option value="">Select Payment Method</option>
+                <option>Cash on Delivery</option>
+                <option>UPI</option>
+                <option>Credit Card</option>
+                <option>Debit Card</option>
+            </select>
+
+            <label>Mobile Number</label>
+            <input type="tel" placeholder="Enter mobile number" required>
+
+            <button type="submit" class="btn">Place Order</button>
+        </form>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
